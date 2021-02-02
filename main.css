@@ -1,0 +1,35 @@
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 14px;
+    color: #6c7279;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.main-content{
+    width: 100%;
+    max-width: 1170px;
+    margin:0 auto;
+}
+
+.btns{
+    color:cornsilk;
+    background-color: blueviolet;
+    border: none;
+    border-radius:30px;
+    font-size: 20px;
+    font-weight: bold;
+    transition: .4s all;
+}
+.btns:hover
+{   
+    border:none;
+    color: blueviolet;
+    background-color:cornsilk;
+}
