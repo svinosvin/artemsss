@@ -1,0 +1,97 @@
+body,
+html {
+  width: 70%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+span {
+  padding: 0;
+  margin: 0;
+}
+
+.todo-content {
+  text-align: center;
+  vertical-align: middle;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+#date1 {
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 0;
+  width: 200px;
+  height: 46px;
+  border: 2px solid black;
+  border-radius: 2px;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+#inputTodo {
+  margin-bottom: 0;
+  width: 300px;
+  height: 46px;
+  border: 2px solid black;
+  border-radius: 2px;
+  outline: none;
+  font-size: 25px;
+  vertical-align: middle;
+}
+
+#addTodo {
+  border: 1px solid black;
+  border-radius: 2px;
+  outline: none;
+  height: 52px;
+  width: 52px;
+  font-size: 30px;
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+.info {
+  background-color: teal;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+.list {
+  margin-top: 0px;
+  background-color: seagreen;
+  width: 100%;
+  min-height: 500px;
+}
+#todo-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
+}
+.item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 3px solid black;
+}
+/* .item1 {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+} */
+.trash {
+  cursor: pointer;
+  padding: 5;
+  font-size: 20;
+  color: blue;
+}
+#clearBtn {
+  background: #ffff;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+  margin-top: 20px;
+  border-radius: 3px;
+}
